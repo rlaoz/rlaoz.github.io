@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar{
+    padding:2rem;
+    background-color: rgb(133, 75, 89);
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.seccion-oscura{
+    color:white;
+    background-color: black;
+}
+
+
+.hero-principal h1{
+    font-size: 2.7rem;
+    font-family: "Montserrat";
+    color: black;
+}
+
+.hero-principal h2{
+    font-size: 1.7rem;
+    font-family: "Crimson Text";
+    font-style: italic;
+    color:rgb(46, 46, 46);
+}
+.hero{
+    background-color: rgb(172, 125, 136);
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+.nosotros{
+    padding:40px;
+
+}
+.caja h1{
+    font-family: "Montserrat";
+    color:rgb(255, 187, 0);
+
+}
+
+.caja h2{
+    font-family: "Crimson Text";
+}
+.contenido-oculto{
+    display: none;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+  
+  footer {
+    min-height: 500px;
+  }
+  
+  .footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Crimson Text';
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+  
+  
+  .iconos-redes-sociales a{
+    background-color: rgb(245, 242, 242);
+    border: 2px solid rgb(5, 5, 5);
+  }
+  
+
+@media screen and (max-width: 767px){
+.navbar-brand{
+    display: none;
+}
+}
+@media screen and (max-width: 700px){
+    .hero-inferior-imagen{
+        max-width:600px;
+    }
+    }
+
+
